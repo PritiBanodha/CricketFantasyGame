@@ -13,6 +13,7 @@
 		04169C1C200384080061FC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04169C1B200384080061FC81 /* Assets.xcassets */; };
 		04169C1F200384080061FC81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04169C1D200384080061FC81 /* LaunchScreen.storyboard */; };
 		04169C2A200384080061FC81 /* CricketFantasyGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04169C29200384080061FC81 /* CricketFantasyGameTests.swift */; };
+		04169C3520038D810061FC81 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04169C3420038D810061FC81 /* GameData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		04169C25200384080061FC81 /* CricketFantasyGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricketFantasyGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04169C29200384080061FC81 /* CricketFantasyGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketFantasyGameTests.swift; sourceTree = "<group>"; };
 		04169C2B200384080061FC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04169C3420038D810061FC81 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				04169C1B200384080061FC81 /* Assets.xcassets */,
 				04169C1D200384080061FC81 /* LaunchScreen.storyboard */,
 				04169C20200384080061FC81 /* Info.plist */,
+				04169C3420038D810061FC81 /* GameData.swift */,
 			);
 			path = CricketFantasyGame;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04169C17200384080061FC81 /* ViewController.swift in Sources */,
+				04169C3520038D810061FC81 /* GameData.swift in Sources */,
 				04169C15200384080061FC81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
